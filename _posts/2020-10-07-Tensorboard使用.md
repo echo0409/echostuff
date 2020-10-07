@@ -1,6 +1,6 @@
 ---
 title: 远程服务器Tensorboard使用总结
-date: 2020-10-08 15:18:57 +0800
+date: 2020-10-07 15:18:57 +0800
 categories: [学习总结, 应用技能]
 tags: [tips]
 ---
@@ -33,8 +33,6 @@ def main():
 
 ### 可视化
 在log文件夹的父目录执行：
-```bash
-ssh -L 16006:127.0.0.1:6006 server_name@server.address
 ```bash
 tensorboard --logdir log
 ```
