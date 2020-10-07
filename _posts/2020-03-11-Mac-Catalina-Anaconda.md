@@ -5,7 +5,7 @@ categories: [踩坑总结, 环境配置]
 tags: [tips]
 ---
 ## 常用命令
-```python
+```bash
 # 查看conda版本
 $ conda --version
 

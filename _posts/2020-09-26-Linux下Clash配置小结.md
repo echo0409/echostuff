@@ -8,11 +8,11 @@ Linu下Clash的配置文件编写相当不友好，但是学院服务器boot已�
 
 ## Proxychains的配置
 用有root权限的账户操作，把最后一行填clash对应的socks5端口或https端口即可。
-```c
+```bash
 sudo vim /etc/proxychains.conf
 ```
 
-```c
+```bash
 [ProxyList]
 # add proxy here ...
 # meanwile

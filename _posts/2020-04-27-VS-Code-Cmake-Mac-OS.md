@@ -24,7 +24,7 @@ Project:
 ## 新建工程目录
 新建工程目录, 用VS Code打开, 随意命名为 CppTest
 执行下列命令, 构建工程的基本框架:
-```
+```bash
 mkdir .vscode bin build include src  
 cd ../src
 touch main.cpp utils.cpp
@@ -38,7 +38,7 @@ touch c_cpp_properties.json launch.json settings.json tasks.json
 ```
 
 ## 安装Cmake
-```
+```bash
 brew install cmake
 cmake --version
 ```
@@ -46,7 +46,7 @@ cmake 所需的主要文件就是 CMakeLists.txt, 我们可以通过编写CMakeL
 
 ## CmakeLists.txt
 写入以下内容：
-```c
+```xml
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8) # cmake最低版本要求
 
 PROJECT(CppTemplate)    # 工程名 CppTemplate
@@ -98,13 +98,13 @@ add_executable(chess  # 输出名为chess的可执行文件
 ## 编写主程序/头文件
 省略
 ## 编译执行
-```
+```bash
 cd build 
 cmake ..  #生成Makefile
 make   #编译
 ```
 如果一切正常, bin目录下就会多出一个chess可执行文件，并执行
-```
+```bash
 cd ..
 ./bin/chess
 ```
