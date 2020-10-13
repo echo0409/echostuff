@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://echo0409.github.io/echostuff/sitemap.xml
